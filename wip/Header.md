@@ -43,22 +43,22 @@ There is more data contained at the beginning of the file:
  * `0x0071` This points to a list that contains the address of the welcome samples played when the power on symbol is pointed at.
  * `0x0075` to `0x008b` are 0
  * Beginning at `0x008c` some books have more data (otherwise 0):
-   `0x008c`      `oooooooo` 32-bit offset
-   `0x0090`      `oooo` 16-bit offset?
-   `0x0092`      `nnnn` 16-bit number
-   `0x0094`      `oooo`
-   `0x0096`      `nnnn`
-   `0x0098`      `oooo`
-   `0x009a`      `nnnn`
-   `0x009c`      `0000`
-   `0x009e`      `0000`
-   `0x00a0`      `oooo`
-   `0x00a2`      `nnnn`
-   `0x00a4`      `0000` or `0001`
-   `0x00a6`      `0000`
-   `0x00a8`      `oooo`
-   `0x00aa`      `nnnn`
-   * from `0x00ac` to `0x01ff` all bytes are `0`
+ * `0x008c`      `oooooooo` 32-bit offset
+ * `0x0090`      `oooo` 16-bit offset?
+ * `0x0092`      `nnnn` 16-bit number
+ * `0x0094`      `oooo`
+ * `0x0096`      `nnnn`
+ * `0x0098`      `oooo`
+ * `0x009a`      `nnnn`
+ * `0x009c`      `0000`
+ * `0x009e`      `0000`
+ * `0x00a0`      `oooo`
+ * `0x00a2`      `nnnn`
+ * `0x00a4`      `0000` or `0001`
+ * `0x00a6`      `0000`
+ * `0x00a8`      `oooo`
+ * `0x00aa`      `nnnn`
+ * from `0x00ac` to `0x01ff` all bytes are `0`
 
 Jump table locations
 --------------------
